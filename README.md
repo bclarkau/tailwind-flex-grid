@@ -24,7 +24,7 @@ module.exports = {
 }
 ```
 
-With zero configuration, it will generate a row class, 1 to 12 columns, offsets, column ordering and `responsive` variants for each new utility.
+With zero configuration, it will generate a row class, 1 to 12 columns, offsets, column ordering, gutter sizes and `responsive` variants for each new utility.
 
 The plugin generates the following sets of classes:
 
@@ -34,8 +34,19 @@ The plugin generates the following sets of classes:
 - `.order-last`, for placing the element last in the row
 - `.order-{size}`, for placing the element at specific places in the row
 - `.offset-{size}`, for the margin-left offset for the element
+- `.gutter-small`, for specifying a smaller half-size gutter in a `.row`.
+- `.gutter-base`, for resetting the gutter back to the base size in a `.row`.
+- `.gutter-large`, for specifying a larger double-size gutter in a `.row`.
+
+### Using gutter classes
+
+`.gutter-small`, `.gutter-base` and `.gutter-large` are useful in conjunction with Tailwind's responsive prefixes to change gutter spacing depending on screen width. eg:
+
+```html
+<div class="row gutter-small md:gutter-base xl:gutter-large">
+```
 
 ## Installing
 ```js
-npm install tailwind-flex-grid --save-dev
+npm install bclarkau/tailwind-flex-grid --save-dev
 ```
