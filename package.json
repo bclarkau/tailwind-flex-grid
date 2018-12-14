@@ -1,0 +1,28 @@
+{
+	"author": {
+	  "name": "Shane Oliver"
+	},
+	"bugs": {
+	  "url": "https://github.com/shaneoliver/tailwind-flex-columns/issues"
+	},
+	"bundleDependencies": false,
+	"deprecated": false,
+	"description": "Tailwind CSS Bootstrap 4 like columns plugin",
+	"homepage": "https://github.com/shaneoliver/tailwind-flex-columns#readme",
+	"keywords": [
+	  "Tailwind",
+	  "columns",
+	  "flexbox",
+	  "columns",
+	  "flexbox",
+	  "grid"
+	],
+	"license": "ISC",
+	"main": "grid.js",
+	"name": "tailwind-flex-grid",
+	"repository": {
+	  "type": "git",
+	  "url": "git+https://github.com/shaneoliver/tailwind-flex-columns.git"
+	},
+	"version": "1.0.0"
+  }
